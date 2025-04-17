@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adarsh - Product Designer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+        }
+        
+        .hero-section {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url('/api/placeholder/1200/600');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            position: relative;
+            background-color: #d4dde5;
+        }
+        
+        .nav-pill {
+            backdrop-filter: blur(10px);
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero-section flex flex-col">
+        <!-- Navigation -->
+        <div class="container mx-auto pt-4 px-4">
+            <nav class="nav-pill rounded-full px-4 py-2 flex items-center justify-between max-w-xl mx-auto">
+                <a href="#" class="text-gray-800 font-medium">STUDIO</a>
+                <a href="#" class="text-gray-800 font-medium">PROJECTS</a>
+                <a href="#" class="w-10 h-10 rounded-full bg-white overflow-hidden flex items-center justify-center">
+                    <img src="img/icon.jpg" alt="Profile" class="w-full h-full object-cover" />
+                </a>
+                <a href="#" class="text-gray-800 font-medium">ABOUT</a>
+                <a href="#" class="text-gray-800 font-medium flex items-center">
+                    RESUME
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                    </svg>
+                </a>
+            </nav>
+        </div>
+        
+        <!-- Main Content -->
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between h-full px-4 pb-16">
+          <!-- Hero Section -->
+<div class="relative w-full h-screen">
+    <!-- Imagem como background absoluto -->
+    <img src="img/hawaii-illustration-retro-comic-style.jpg"
+         class="absolute inset-0 w-full h-full object-cover z-0"
+         alt="Background" />
+  
+    <!-- Overlay escurecida opcional -->
+    <div class="absolute inset-0 bg-black bg-opacity-30 z-10"></div>
+  
+    <!-- Navbar -->
+    <div class="relative z-20 container mx-auto pt-4 px-4">
+      <nav class="nav-pill rounded-full px-4 py-2 flex items-center justify-between max-w-xl mx-auto">
+        <a href="#" class="text-white font-medium">STUDIO</a>
+        <a href="#" class="text-white font-medium">PROJECTS</a>
+        <a href="#" class="w-10 h-10 rounded-full bg-white overflow-hidden flex items-center justify-center">
+          <img src="img/icon.jpg" alt="Profile" class="w-full h-full object-cover" />
+        </a>
+        <a href="#" class="text-white font-medium">ABOUT</a>
+        <a href="#" class="text-white font-medium flex items-center">
+          RESUME
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+          </svg>
+        </a>
+      </nav>
+    </div>
+  
+    <!-- Texto sobre a imagem -->
+    <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 w-11/12 md:w-1/2 h-[100px] bg-black bg-opacity-50 text-white flex flex-col justify-center items-center rounded-md px-4 z-20">
+      <h1 class="text-2xl md:text-3xl font-bold mb-1 text-center">Namaste, I'm Adarsh 🙏</h1>
+      <p class="text-sm text-center">Product Designer • Musician • Mythology Nerd</p>
+    </div>
+  </div>
+  
+</body>
+</html>
